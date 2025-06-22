@@ -6,4 +6,3 @@ __pycache__/
 # .gitignore
 __pycache__/
 *.pyc
-screenshots/
