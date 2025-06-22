@@ -52,11 +52,9 @@ streamlit run app.py
 The app will launch in your browser at:
 http://localhost:8501
 
-### 🖼 App Screenshots
-
 | Upload Image | Prediction | Evaluation |
 |--------------|------------|------------|
-|screenshots\upload.png |screenshots\prediction.png |screenshots\metrics.png|
+| ![Upload](screenshots/upload.png) | ![Prediction](screenshots/prediction.png) | ![Metrics](screenshots/metrics.png) |
 
 
 
