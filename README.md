@@ -56,7 +56,7 @@ http://localhost:8501
 
 | Upload Image | Prediction | Evaluation |
 |--------------|------------|------------|
-| ![Upload](screenshots/upload.png) | ![Prediction](screenshots/prediction.png) | ![Metrics](screenshots/metrics.png) |
+|screenshots\upload.png |screenshots\prediction.png |screenshots\metrics.png|
 
 
 
