@@ -56,10 +56,8 @@ http://localhost:8501
 
 | Upload Image | Prediction | Evaluation |
 |--------------|------------|------------|
-| ![upload](https://github.com/user-attachments/assets/0722e847-9aef-4dc0-ac4c-340ad6b2af9c)
- | ![prediction](https://github.com/user-attachments/assets/f7d12039-aba3-41e3-a332-464bb803bf4b)
- | ![metrics](https://github.com/user-attachments/assets/d00cf2b4-5c9e-4b17-8868-3052547c9c2d)
- |
+| ![Upload](screenshots/upload.png) | ![Prediction](screenshots/prediction.png) | ![Metrics](screenshots/metrics.png) |
+
 
 
 
