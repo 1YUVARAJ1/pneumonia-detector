@@ -61,9 +61,9 @@ http://localhost:8501
 
 
 
-## 👨‍💻 Author
+👨‍💻 Author
 
-**Yuvaraj N**  
+Yuvaraj N  
 Bachelor of Engineering in Artificial Intelligence and Data Science  
 📫 www.linkedin.com/in/1yuvarajn1
 
