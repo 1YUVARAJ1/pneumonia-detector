@@ -6,6 +6,5 @@ __pycache__/
 # .gitignore
 __pycache__/
 *.pyc
-*.h5
 test/
 screenshots/
