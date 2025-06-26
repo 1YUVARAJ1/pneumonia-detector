@@ -1,74 +1,89 @@
 # 🩺 Pneumonia Detector - AI Powered Chest X-ray Classification App
 
-This project is a deep learning-powered application that detects **Pneumonia** from chest X-ray images using a Convolutional Neural Network (CNN) model trained on the Kaggle Chest X-ray dataset. It comes with a user-friendly web interface built using **Streamlit**, allowing medical professionals or users to upload X-ray images and instantly receive a prediction.
+This project is an AI-powered web app that detects **Pneumonia** from chest X-ray images using a trained **Convolutional Neural Network (CNN)**. Built with **Streamlit**, the app allows users to upload an X-ray image and instantly receive a prediction with confidence scores.
 
 ---
 
 ## 🚀 Features
 
-- Detects **Normal** vs **Pneumonia** from X-ray images
-- Built-in deep learning model using TensorFlow & Keras
-- Displays prediction confidence in percentage
-- Confusion matrix, accuracy, precision, and recall metrics
-- Clear and interactive Streamlit UI
+- 🔍 Classifies chest X-rays as **Normal** or **Pneumonia**
+- 📊 Displays prediction probability/confidence
+- 📈 Evaluation metrics: accuracy, precision, recall, F1 score
+- 📉 Confusion matrix with visualization
+- 🖼️ Upload image preview
+- ✅ Clean, minimal UI using **Streamlit**
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language**: Python
-- **Libraries**:
-  - TensorFlow / Keras
-  - NumPy, OpenCV, Pillow
-  - Scikit-learn (for evaluation)
-  - Streamlit (for frontend)
-  - Matplotlib & Seaborn (for graphs)
-- **Tools**:
-  - Google Colab (for training)
-  - VS Code (for local app & UI)
-  - Git & GitHub (for version control)
+| Layer         | Stack Used                       |
+|---------------|----------------------------------|
+| Model         | TensorFlow, Keras (CNN)          |
+| Preprocessing | OpenCV, Pillow, NumPy            |
+| Evaluation    | scikit-learn, matplotlib, seaborn|
+| UI            | Streamlit                        |
+| Development   | VS Code, Git, Google Colab       |
 
 ---
 
-## ⚙️ How to Run the App
+## 📂 Folder Structure
+```
+pneumonia-detector/
+├── app.py                # Streamlit app main file
+├── model/                # Trained CNN model (e.g. model.h5)
+├── utils.py              # Helper functions (e.g. preprocessing)
+├── requirements.txt
+├── screenshots/          # UI image previews
+│   ├── upload.png
+│   ├── prediction.png
+│   └── metrics.png
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
 
 ### 📌 Prerequisites
-
-Make sure Python and pip are installed.
+- Python 3.8+
+- pip
 
 ### 📥 1. Clone this Repository
 ```bash
 git clone https://github.com/1YUVARAJ1/pneumonia-detector.git
 cd pneumonia-detector
+```
 
 ### 📦 2. Install Dependencies
-
 ```bash
 pip install -r requirements.txt
+```
 
-🚀 3. Run the App
+### 🚀 3. Run the App
+```bash
 streamlit run app.py
+```
+Open your browser: [http://localhost:8501](http://localhost:8501)
 
-The app will launch in your browser at:
-http://localhost:8501
+---
+
+## 🖼️ Screenshots
 
 | Upload Image | Prediction | Evaluation |
 |--------------|------------|------------|
 | ![Upload](screenshots/upload.png) | ![Prediction](screenshots/prediction.png) | ![Metrics](screenshots/metrics.png) |
 
-
-
-
-
-
-👨‍💻 Author
-
-Yuvaraj N  
-Bachelor of Engineering in Artificial Intelligence and Data Science  
-📫 www.linkedin.com/in/1yuvarajn1
-
 ---
 
 ## 📜 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open-source under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+
+**Yuvaraj N**  
+Bachelor of Engineering in Artificial Intelligence and Data Science  
+📫 [LinkedIn](https://www.linkedin.com/in/1yuvarajn1)
